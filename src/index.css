@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+@import 'tailwindcss';
+
 @theme {
   --color-primary: #030412;
   --color-midnight: #06091f;
@@ -17,12 +18,11 @@
   --animate-orbit: orbit 50s linear infinite;
   @keyframes orbit {
     0% {
-      transform: rotate(calc(var(--angle) * 1deg))
-        translateY(calc(var(--radius) * 1px)) rotate(calc(var(--angle) * -1deg));
+      transform: rotate(calc(var(--angle) * 1deg)) translateY(calc(var(--radius) * 1px))
+        rotate(calc(var(--angle) * -1deg));
     }
     100% {
-      transform: rotate(calc(var(--angle) * 1deg + 360deg))
-        translateY(calc(var(--radius) * 1px))
+      transform: rotate(calc(var(--angle) * 1deg + 360deg)) translateY(calc(var(--radius) * 1px))
         rotate(calc((var(--angle) * -1deg) - 360deg));
     }
   }
@@ -49,7 +49,7 @@
 }
 body {
   background: #030412;
-  font-family: "Funnel Display", sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   color: white;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -135,4 +135,25 @@ body {
 
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
+}
+.nav-island {
+  @apply top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-3xl 
+          backdrop-blur-xl shadow-lg rounded-2xl;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: inherit;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Darker gray thumb */
+  border-radius: 5px;
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Even darker gray on hover */
 }
