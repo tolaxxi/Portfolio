@@ -1,15 +1,7 @@
-import React, { useState } from "react";
-import ProjectDetails from "./ProjectDetails";
+import { useState } from 'react';
+import ProjectDetails from './ProjectDetails';
 
-const Project = ({
-  title,
-  description,
-  subDescription,
-  href,
-  image,
-  tags,
-  setPreview,
-}) => {
+const Project = ({ title, description, subDescription, href, image, tags, setPreview }) => {
   const [isHidden, setIsHidden] = useState(false);
   return (
     <>
@@ -26,10 +18,7 @@ const Project = ({
             ))}
           </div>
         </div>
-        <button
-          onClick={() => setIsHidden(true)}
-          className="flex items-center gap-1 cursor-pointer hover-animation"
-        >
+        <button onClick={() => setIsHidden(true)} className="flex items-center gap-1 cursor-pointer hover-animation">
           Read More
           <img src="assets/arrow-right.svg" className="w-5" />
         </button>

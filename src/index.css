@@ -141,7 +141,7 @@ body {
           backdrop-blur-xl shadow-lg rounded-2xl;
 }
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 7px;
 }
 ::-webkit-scrollbar-track {
   background: inherit;

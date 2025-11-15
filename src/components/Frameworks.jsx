@@ -1,7 +1,20 @@
 import { OrbitingCircles } from './OrbitingCircles';
 
 export function Frameworks() {
-  const skills = ['css3', 'git', 'html5', 'javascript', 'typescript', 'redux', 'react', 'tailwindcss', 'vitejs'];
+  const skills = [
+    'css3',
+    'git',
+    'github',
+    'html5',
+    'javascript',
+    'typescript',
+    'redux',
+    'routerV7',
+    'react',
+    'tailwindcss',
+    'npm',
+    'vitejs',
+  ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
       <OrbitingCircles iconSize={40}>
