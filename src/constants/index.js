@@ -75,7 +75,6 @@ export const myProjects = [
       'Built with React using custom hooks and context for clean state management.',
       'Added debounced search to reduce API calls and improve user experience.',
       'Developed reusable components and a paginated movie browser for easy navigation.',
-      'Integrated loading states, errors, and dynamic queries for a smooth UI flow.',
       'Designed a modern, responsive layout with Tailwind CSS.',
     ],
 
