@@ -17,9 +17,9 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Tolani Onajoko</p>
+            <p className="headtext">Hi, I&#39;m Tolani Onajoko</p>
             <p className="subtext">
-              Through my learning journey, I’ve expanded my frontend expertise, building interactive web experiences
+              Through my learning journey, I&#39;ve expanded my frontend expertise, building interactive web experiences
               that transform ideas into reality.
             </p>
           </div>
@@ -63,7 +63,7 @@ const About = () => {
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
-            <p className="subtext">I'm based in Nigeria, and open to remote work worldwide</p>
+            <p className="subtext">I&#39;m based in Nigeria, and open to remote work worldwide</p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
             <Globe />
