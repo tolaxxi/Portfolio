@@ -8,7 +8,7 @@ export const myProjects = [
       'Developed using React, TypeScript, Vite, and Three.js to create a fast, responsive, and visually dynamic portfolio.',
       'Implemented interactive 3D scenes, clean UI structure, and optimized WebAPI integration for smooth performance.',
     ],
-    href: '',
+    href: 'https://www.omotolani.site/',
     logo: '',
     image: '/assets/projects/3d-portfolio.jpeg',
     tags: [
@@ -40,7 +40,7 @@ export const myProjects = [
       'Added Local Storage support for saving tasks, tracking progress, and subtle celebration feedback.',
     ],
 
-    href: '',
+    href: 'https://whisperwind-todo-2dht.vercel.app/',
     logo: '',
     image: '/assets/projects/whisperWind-todo.jpeg',
     tags: [
@@ -127,8 +127,8 @@ export const mySocials = [
 export const experiences = [
   {
     title: 'Tech Support',
-    job: 'IT Support — St\'Czech Nigeria Limited',
-    date: '2021–2023',
+    job: "IT Support — St'Czech Nigeria Limited",
+    date: '2019–2023',
     contents: [
       'Helped staff fix basic computer, software, and network issues.',
       'Set up and installed computers, apps, and work tools for new users.',

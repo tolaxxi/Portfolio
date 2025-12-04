@@ -17,7 +17,7 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I&#39;m Tolani Onajoko</p>
+            <p className="headtext">Hi, I&#39;m Omotolani Onajoko</p>
             <p className="subtext">
               Through my learning journey, I&#39;ve expanded my frontend expertise, building interactive web experiences
               that transform ideas into reality.
