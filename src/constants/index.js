@@ -104,6 +104,49 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 4,
+    title: 'Weather Now',
+    description:
+      'A modern weather application that delivers accurate daily and hourly forecasts with a smooth, responsive interface.',
+    subDescription: [
+      'Built with React and TypeScript using clean custom hooks for organized state management.',
+      'Optimized performance with smart local storage caching for faster loads and offline access.',
+      'Created reusable UI components and dynamic forecast sections for improved clarity and navigation.',
+      'Implemented loading states, error handling, and retry logic for a polished, reliable experience.',
+    ],
+
+    href: 'https://weather-now-indol-one.vercel.app/',
+    logo: '',
+    image: '/assets/projects/weatherNow.jpg',
+    tags: [
+      {
+        id: 1,
+        name: 'TypeScript',
+        path: '/assets/logos/typescript.svg',
+      },
+      {
+        id: 2,
+        name: 'React',
+        path: '/assets/logos/react.svg',
+      },
+      {
+        id: 3,
+        name: 'TailwindCSS',
+        path: '/assets/logos/tailwindcss.svg',
+      },
+      {
+        id: 4,
+        name: 'API',
+        path: '/assets/logos/api.svg',
+      },
+      {
+        id: 5,
+        name: 'Git',
+        path: '/assets/logos/git.svg',
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
